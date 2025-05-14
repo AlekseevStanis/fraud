@@ -1,0 +1,13 @@
+# Данные и модели
+data/
+models/
+mlruns/
+
+# Python
+__pycache__/
+*.pyc
+*.pkl
+
+# IDE и системы
+.ipynb_checkpoints/
+.env
