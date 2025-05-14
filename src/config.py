@@ -3,9 +3,8 @@ from dataclasses import dataclass
 
 @dataclass
 class Config:
-    data_path: str = "data/processed/train.csv"
-    test_path: str = "data/processed/test.csv"
-    model_path: str = "models/model.pkl"
+    data_path: str = "data/raw/creditcard.csv"
+    model_path: str = "models/catboost_model.cbm"
     mlflow_uri: str = "http://localhost:5000"
     experiment_name: str = "fraud-detection"
     model_type: str = "xgboost"
